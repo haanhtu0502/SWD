@@ -1,0 +1,27 @@
+@use "../../scss/" as *;
+
+.input_file {
+  margin-top: 1rem;
+}
+
+input {
+  display: none;
+}
+
+label {
+  color: white;
+  height: 60px;
+  width: 250px;
+  background-color: $main-color;
+
+  margin: auto;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 0.75rem;
+  border-radius: 30px;
+  &:hover {
+    opacity: 0.9;
+  }
+}
